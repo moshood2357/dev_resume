@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Introduction to subime text</title>
+    <title>My personal portfolio</title>
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <meta name="twitter:title" content="Title on X (formerly twitter)">
-    <meta name="og:title" content="Title in facebook">
+    <!-- <meta name="twitter:title" content="Title on X (formerly twitter)">
+    <meta name="og:title" content="Title in facebook"> -->
 
     <style>
         /* header,section,div{
@@ -81,13 +81,18 @@
                         <div class="ps-5">
                             <small class="p-1 mb-4 rounded-2" style="background-color: lightblue">Full-stack developer</small>
                             <h1 class="pb-1">Building Scalable<br><span class="text-primary pb-4">Web Solutions</span></h1>
-                            <p class="mt-2" style="max-width: 70%">Full-stack developer with 2+ years of experience creating
+                            <p class="mt-2" style="max-width: 80%">Full-stack developer with 2+ years of experience creating
                                 robust,
                                 scalable application using modern technologies and best practices.</p>
-                            <div>
-                                <a href="#projects" class="me-3"><button class="btn btn-primary">View projects</button></a>
-                                <a href="#"><button class="btn btn-outline-primary">Download Resume</button></a>
-                            </div>
+                            <div class="d-flex flex-column flex-sm-row align-items-start">
+  <a href="#projects" class="me-sm-3 mb-2 mb-sm-0">
+    <button class="btn btn-primary w-100 w-sm-auto">View Projects</button>
+  </a>
+  <a href="#">
+    <button class="btn btn-outline-primary w-100 w-sm-auto">Download Resume</button>
+  </a>
+</div>
+
                             <div class="d-flex pt-4">
                                 <a href="#"><img src="linkedin.png" style="width: 30px"></a>
                                 <a href="#"><img src="twitter.webp" style="width: 30px"></a>
@@ -256,9 +261,8 @@
                         <div class="card">
                             <img src="scroll.png" class="card-img-top" alt="my project">
                             <div class="card-body">
-                                <h5 class="card-title">Simple website</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                                    content.
+                                <h5 class="card-title">A modern website</h5>
+                                <p class="card-text">Interactive Scroll Experience — A sleek, modern website designed with smooth scroll animations using JavaScript to enhance user engagement and storytelling. Each section reveals itself dynamically as you scroll, creating an immersive and visually appealing browsing experience.
                                 </p>
                                 <div class="d-flex pb-3">
                                     <small class="px-2 text-center rounded-3 bg-success mb-2 me-2">HTML5</small>
@@ -347,150 +351,113 @@ Driven by AI insights, it analyzes users&apos;interests, goals, and strengths to
         </section>
 
         <!-- technical skills -->
-        <section class="content p-5" id = "Skills" style="background-color: blueviolet" ;>
-            <div class="mb-5 pt-5 px-3">
-                <h1 class="text-center">Technical Skills</h1>
-                <p class="text-center">A comprehensive overview of my technical expertise across the full development stack.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <!-- Frontend Development -->
-                    
-                        <div class="card shadow-sm border-0 h-100">
-                            <div class="card-body">
-                                <h6 class="fw-bold">Frontend Development</h6>
-                                <p>HTML <span class="float-end">95%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:95%"></div>
-                                </div>
-                    
-                                <p>CSS <span class="float-end">90%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:90%"></div>
-                                </div>
+        <section class="content p-5" id="Skills" style="background-color: blueviolet;">
+  <div class="mb-5 pt-5 px-3 text-white">
+    <h1 class="text-center">Technical Skills</h1>
+    <p class="text-center">A comprehensive overview of my technical expertise across the full development stack.</p>
+  </div>
 
-                                <p>TAILWINDCSS <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div>
-                                
-                                <p>BOOTSTRAP <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div>
-                                
-                                <p>JAVASCRIPT <span class="float-end">85%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:85%"></div>
-                                </div>
-                    
-                                <p>REACT <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div>
+  <div class="row g-4"> 
+    <!-- g-4 adds uniform gap between columns on all devices -->
 
-                                <p>Next.js <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div>
+    <!-- Frontend Development -->
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body">
+          <h6 class="fw-bold">Frontend Development</h6>
 
-                                <p>JQUERY <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                
-                    
-            
-                    <!-- backend Development -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm border-0 h-100">
-                            <div class="card-body">
-                                <h6 class="fw-bold">Backend Development</h6>
-                                <p>Node.js <span class="float-end">95%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:95%"></div>
-                                </div>
-                    
-                                <p>Python <span class="float-end">90%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:90%"></div>
-                                </div>
-                    
-                                <p>FLASK <span class="float-end">85%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:85%"></div>
-                                </div>
-                    
-                                <!-- <p>Angular <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                
-                
-                    <!-- Database & storage -->
-                    <div class="col-md-4">
-                        <div class="card shadow-sm border-0 h-100">
-                            <div class="card-body">
-                                <h6 class="fw-bold">Database & storage</h6>
-                                <p>MYSQL <span class="float-end">80%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:95%"></div>
-                                </div>
-                    
-                                <p>SQLite <span class="float-end">80%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:90%"></div>
-                                </div>
-                    
-                                <p>PostgreSQL <span class="float-end">50%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:50%"></div>
-                                </div>
-                    
-                                <!-- <p>Angular <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- DevOps & tools -->
-                    <!-- <div class="col-md-3">
-                        <div class="card shadow-sm border-0 h-100">
-                            <div class="card-body">
-                                <h6 class="fw-bold">DevOps & tools</h6>
-                                <p>React <span class="float-end">95%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:95%"></div>
-                                </div>
-                    
-                                <p>TypeScript <span class="float-end">90%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:90%"></div>
-                                </div>
-                    
-                                <p>Vue.js <span class="float-end">85%</span></p>
-                                <div class="progress mb-3">
-                                    <div class="progress-bar bg-primary" style="width:85%"></div>
-                                </div>
-                    
-                                <p>Angular <span class="float-end">80%</span></p>
-                                <div class="progress mb-0">
-                                    <div class="progress-bar bg-primary" style="width:80%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-            
-        </section>
+          <p>HTML <span class="float-end">95%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:95%"></div>
+          </div>
+
+          <p>CSS <span class="float-end">90%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:90%"></div>
+          </div>
+
+          <p>TailwindCSS <span class="float-end">80%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:80%"></div>
+          </div>
+
+          <p>Bootstrap <span class="float-end">80%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:80%"></div>
+          </div>
+
+          <p>JavaScript <span class="float-end">85%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:85%"></div>
+          </div>
+
+          <p>React <span class="float-end">80%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:80%"></div>
+          </div>
+
+          <p>Next.js <span class="float-end">80%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:80%"></div>
+          </div>
+
+          <p>jQuery <span class="float-end">80%</span></p>
+          <div class="progress mb-0">
+            <div class="progress-bar bg-primary" style="width:80%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Backend Development -->
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body">
+          <h6 class="fw-bold">Backend Development</h6>
+
+          <p>Node.js <span class="float-end">95%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:95%"></div>
+          </div>
+
+          <p>Python <span class="float-end">90%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:90%"></div>
+          </div>
+
+          <p>Flask <span class="float-end">85%</span></p>
+          <div class="progress mb-0">
+            <div class="progress-bar bg-primary" style="width:85%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Database & Storage -->
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0 h-100">
+        <div class="card-body">
+          <h6 class="fw-bold">Database & Storage</h6>
+
+          <p>MySQL <span class="float-end">95%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:95%"></div>
+          </div>
+
+          <p>SQLite <span class="float-end">90%</span></p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:90%"></div>
+          </div>
+
+          <p>PostgreSQL <span class="float-end">50%</span></p>
+          <div class="progress mb-0">
+            <div class="progress-bar bg-primary" style="width:50%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
         <!-- contact section -->
